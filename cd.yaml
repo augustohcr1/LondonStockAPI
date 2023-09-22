@@ -1,0 +1,29 @@
+﻿name: CD
+
+on:
+  workflow_run:
+    workflows: ["CI"]
+    types:
+      - completed
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v2
+
+    - name: Setup .NET
+      uses: actions/setup-dotnet@v1
+      with:
+        dotnet-version: 7.x
+
+    - name: Publish
+      run: dotnet publish -c Release -o ./publish
+
+    - name: Deploy to Azure App Service
+      uses: azure/webapps-deploy@v2
+      with:
+        app-name: london-stock-api
+        publish-profile: ${{ secrets.AZURE_WEBAPP_PUBLISH_PROFILE }}

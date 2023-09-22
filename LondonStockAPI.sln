@@ -1,0 +1,55 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LondonStockAPI.Domain", "LondonStockAPI.Domain\LondonStockAPI.Domain.csproj", "{CE658B19-DC3E-41AA-A3A5-B5D641FBB883}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LondonStockAPI.Application", "LondonStockAPI.Application\LondonStockAPI.Application.csproj", "{874AFCBC-69D6-45F6-BA05-2B950D715982}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LondonStockAPI.Infraestructure", "LondonStockAPI.Infraestructure\LondonStockAPI.Infraestructure.csproj", "{ABC40CE9-7888-4281-BD52-336FD85CD0A9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LondonStockAPI.WebApi", "LondonStockAPI.WebApi\LondonStockAPI.WebApi.csproj", "{FF539DA9-D364-4326-B9DB-ACA6EAF7F056}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{5450851C-F9F4-44A9-937A-ACEA99DCED51}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LondonStockAPI.Domain.UnitTests", "LondonStockAPI.Domain.UnitTests\LondonStockAPI.Domain.UnitTests.csproj", "{A68820D5-6073-412A-89A3-19F0D7EBE5D4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CE658B19-DC3E-41AA-A3A5-B5D641FBB883}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE658B19-DC3E-41AA-A3A5-B5D641FBB883}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE658B19-DC3E-41AA-A3A5-B5D641FBB883}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CE658B19-DC3E-41AA-A3A5-B5D641FBB883}.Release|Any CPU.Build.0 = Release|Any CPU
+		{874AFCBC-69D6-45F6-BA05-2B950D715982}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{874AFCBC-69D6-45F6-BA05-2B950D715982}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{874AFCBC-69D6-45F6-BA05-2B950D715982}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{874AFCBC-69D6-45F6-BA05-2B950D715982}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ABC40CE9-7888-4281-BD52-336FD85CD0A9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ABC40CE9-7888-4281-BD52-336FD85CD0A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ABC40CE9-7888-4281-BD52-336FD85CD0A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ABC40CE9-7888-4281-BD52-336FD85CD0A9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FF539DA9-D364-4326-B9DB-ACA6EAF7F056}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FF539DA9-D364-4326-B9DB-ACA6EAF7F056}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FF539DA9-D364-4326-B9DB-ACA6EAF7F056}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FF539DA9-D364-4326-B9DB-ACA6EAF7F056}.Release|Any CPU.Build.0 = Release|Any CPU
+		{333EB382-2580-49BE-8F53-EAA6422C9DF4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{333EB382-2580-49BE-8F53-EAA6422C9DF4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{333EB382-2580-49BE-8F53-EAA6422C9DF4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{333EB382-2580-49BE-8F53-EAA6422C9DF4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A68820D5-6073-412A-89A3-19F0D7EBE5D4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A68820D5-6073-412A-89A3-19F0D7EBE5D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A68820D5-6073-412A-89A3-19F0D7EBE5D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A68820D5-6073-412A-89A3-19F0D7EBE5D4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

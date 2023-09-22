@@ -1,0 +1,31 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Features\" />
+    <None Remove="Features\Stocks\" />
+    <None Remove="Features\Stocks\QueryHandlers\" />
+    <None Remove="Features\Stocks\Mappings\" />
+    <None Remove="Features\Stocks\CommandHandler\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Features\" />
+    <Folder Include="Features\Stocks\" />
+    <Folder Include="Features\Stocks\QueryHandlers\" />
+    <Folder Include="Features\Stocks\Mappings\" />
+    <Folder Include="Features\Stocks\CommandHandler\" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="MediatR" Version="12.1.1" />
+    <PackageReference Include="AutoMapper" Version="12.0.1" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\LondonStockAPI.Domain\LondonStockAPI.Domain.csproj" />
+    <ProjectReference Include="..\LondonStockAPI.Infraestructure\LondonStockAPI.Infraestructure.csproj" />
+  </ItemGroup>
+</Project>
